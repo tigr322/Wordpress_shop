@@ -1,23 +1,28 @@
 # Системные файлы
 .DS_Store
 
-# PHPStorm / VSCode
+# IDE
 .idea/
 .vscode/
 
 # Docker
+docker-compose.yml
+.env
+docker/
+
+# WordPress временные и генерируемые файлы
 wp/wp-config.php
 wp/wp-content/uploads/
 wp/wp-content/cache/
 wp/wp-content/upgrade/
 wp/wp-content/backups/
-*.log
 
-# ОС
+# Логи и временные файлы
+*.log
 *.swp
 *.swo
 
-# Бэкапы
+# Архивы и дампы
 *.sql
 *.tar
 *.tar.gz

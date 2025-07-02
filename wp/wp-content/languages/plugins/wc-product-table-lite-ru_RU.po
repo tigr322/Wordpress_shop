@@ -1,0 +1,389 @@
+# Translation of Plugins - WooCommerce Product Table Lite - Development (trunk) in Russian
+# This file is distributed under the same license as the Plugins - WooCommerce Product Table Lite - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-09-30 18:45:40+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - WooCommerce Product Table Lite - Development (trunk)\n"
+
+#: templates/form-loading-screen.php:19
+msgid "Loading&hellip;"
+msgstr "Загрузка&hellip;"
+
+#: templates/category_filter.php:367
+msgid "All"
+msgstr "Все"
+
+#: main.php:5764
+msgid "Free!"
+msgstr "Бесплатно!"
+
+#: main.php:1040
+msgid "&quot;%%TITLE%%&quot; cannot be purchased. Please enter less than or equal to %%MAXIMUM%%."
+msgstr "&quot;%%TITLE%%&quot; не удаётся оформить для покупки. Введите значение не больше %%MAXIMUM%%."
+
+#: main.php:1039
+msgid "&quot;%%TITLE%%&quot; cannot be purchased. Please enter at least %%MINIMUM%%."
+msgstr "&quot;%%TITLE%%&quot; не удаётся оформить для покупки. Введите значение не меньше %%MINIMUM%%."
+
+#: main.php:1038
+msgid "Please enter an amount."
+msgstr "Укажите количество."
+
+#: main.php:1037
+msgid "Please enter less than or equal to %%MAXIMUM%%."
+msgstr "Введите значение не больше %%MAXIMUM%%."
+
+#: main.php:1036
+msgid "&quot;%%TITLE%%&quot; could not be added to the cart. Please enter less than or equal to %%MAXIMUM%%."
+msgstr "&quot;%%TITLE%%&quot; не удалось добавить в корзину. Введите значение не больше %%MAXIMUM%%."
+
+#: main.php:1035
+msgid "Please enter a higher amount."
+msgstr "Введите большее число."
+
+#: main.php:1034
+msgid "Please enter at least %%MINIMUM%%."
+msgstr "Введите значение не меньше %%MINIMUM%%."
+
+#: main.php:1033
+msgid "&quot;%%TITLE%%&quot; could not be added to the cart. Please enter a higher amount."
+msgstr "&quot;%%TITLE%%&quot; не удалось добавить в корзину. Введите большее число."
+
+#: main.php:1032
+msgid "&quot;%%TITLE%%&quot; could not be added to the cart. Please enter at least %%MINIMUM%%."
+msgstr "&quot;%%TITLE%%&quot; не удалось добавить в корзину. Введите значение не меньше %%MINIMUM%%."
+
+#: main.php:1031
+msgid "&quot;%%TITLE%%&quot; could not be added to the cart. Please enter a valid, positive number."
+msgstr "&quot;%%TITLE%%&quot; не удалось добавить в корзину. Введите действительное положительное число."
+
+#: main.php:1030
+msgid "This is not a valid product."
+msgstr "Это недействительный товар."
+
+#: editor/partials/query.php:82
+msgid "Date"
+msgstr "Дата"
+
+#: editor/editor.php:1194 editor/settings.php:69
+msgid "Found a bug / Got questions? Please reach out for support here: "
+msgstr "Нашли ошибку или имеете вопрос? Обратитесь за поддержкой здесь: "
+
+#: templates/sort_by.php:36
+msgid "Relevance"
+msgstr "Релевантность"
+
+#: main.php:1760
+msgid "characters remaining"
+msgstr "символов осталось"
+
+#: main.php:1759
+msgid "Subtotal"
+msgstr "Подытог"
+
+#. Author of the plugin
+#: main.php
+msgid "WC Product Table"
+msgstr "Таблица товаров WC"
+
+#: main.php:635
+msgid "How to add WooCommerce products"
+msgstr "Как добавлять товары WooCommerce"
+
+#: main.php:633
+msgid "WooCommerce Product Table (WCPT) could not find a single 'published' WooCommerce product on your site! WCPT cannot dispaly any products in tables if you do not have any published products on your site. See:"
+msgstr "WooCommerce Product Table (WCPT) не смогла найти ни одного «опубликованного» товара WooCommerce на вашем сайте! WCPT не может отображать какие-либо товары в таблицах, пока на сайте нет опубликованных товаров. Смотрите:"
+
+#: main.php:608
+msgid "WooCommerce Product Table requires at least WooCommerce 3.4.4. Please update your WooCommerce version to avoid incompatibility issues and unexpected behaviour."
+msgstr "Для WooCommerce Product Table требуется как минимум WooCommerce 3.4.4. Обновите свою версию WooCommerce, во избежание проблем с совместимостью непредвиденным поведением системы."
+
+#: main.php:572
+msgid "WooCommerce Product Table requires at least WordPress 4.9.0. Please update your WordPress version to avoid incompatibility issues and unexpected behaviour."
+msgstr "Для WooCommerce Product Table требуется как минимум WordPress 4.9.0. Обновите свою версию WordPress, во избежание проблем с совместимостью непредвиденным поведением системы."
+
+#: main.php:558
+msgid "WooCommerce Product Table requires at least PHP 5.4.0. Please request you webhost to update your PHP version or run the plugin on another server to avoid incompatibility issues and unexpected behaviour."
+msgstr "Для WooCommerce Product Table требуется как минимум PHP 5.4.0. Обратитесь к своему хостеру, попросив обновить вашу версию PHP или используйте этот плагин на другом сервере, во избежание проблем с совместимостью непредвиденным поведением системы."
+
+#: templates/modals.php:61
+msgid "Apply"
+msgstr "Применить"
+
+#: templates/modals.php:58
+msgid "Reset"
+msgstr "Сброс"
+
+#: templates/modals.php:54
+msgid "Sort"
+msgstr "Сортировка"
+
+#: templates/modals.php:51
+msgid "Filters"
+msgstr "Фильры"
+
+#: templates/cart-widget.php:192
+msgid "View Cart"
+msgstr "Просмотр корзины"
+
+#: templates/cart-widget.php:158
+msgid "Item"
+msgstr "Пункт"
+
+#: templates/cart-widget.php:156
+msgid "Items"
+msgstr "Пункты"
+
+#: editor/partials/query.php:88
+msgid "Random"
+msgstr "Произвольно"
+
+#: main.php:2546
+msgid "WooCommerce Product Table Notice"
+msgstr "Уведомление таблицы товаров WC"
+
+#: main.php:2535
+msgid "While you have created at least one column in the Laptop Columns section for this table, it seems you have not created any elements in the columns. Please create at least one element in at least one Laptop Column for this table, then save your table settings and reload this page to see your table."
+msgstr "Хотя вы создали столбцы в разделе «Столбцы для больших экранов» для этой таблицы, похоже, вы не вставили туда ни один элемент. Создайте хотя бы один элемент хотя бы в одном столбце этой таблицы, затем сохраните её настройки и перезагрузите эту страницу, чтобы увидеть то что вы создали."
+
+#: main.php:2523
+msgid ""
+"It appears you have not set any Laptop Columns for your product table. Therefore, without any columns, your table does not have any content to display. Please follow these steps:\n"
+"                    <ol>\n"
+"                      <li>Go to the table editor > Columns tab > Laptop Columns section and use the 'Add a Column' button to add at least one column.</li>\n"
+"                      <li>Within this column that you have added, either in the 'Heading' or 'Cell template' please add at least one element using the '+ Add Element' button. Otherwise this column will simply be empty.</li>\n"
+"                      <li>Save your table settings after following the above two steps, and then reload this page.</li>\n"
+"                    </ol>\n"
+"                    If you have created at least one Laptop Column, with at least one element in it, and your table is saved, this warning message will be removed and your table will be presented. Please visit the <a href=\"https://wcproducttable.com/tutorials\" target=\"_blank\">plugin's  tutorials</a> for a clear guide on how to use this plugin and get the most out of it."
+msgstr ""
+"Похоже, вы не установили столбцы таблицы товаров для больших экранов. Без столбцов ваша таблица не имеет содержимого для отображения. Необходимо выполнить следующие шаги:\n"
+"                    <ol>\n"
+"                      <li>Перейти в редактор таблиц > вкладка «Столбцы» > раздел «Столбцы для больших экранов» и используйте кнопку «Добавить столбец», чтобы добавлять столбцы.</li>\n"
+"                      <li>В столбце, который вы добавили, либо в заголовок, либо в шаблон ячейки, добавьте элементы, используя кнопку «+ Добавить элемент». Иначе столбец останется пустым.</li>\n"
+"                      <li>Сохраните настройки таблицы, а затем перезагрузите страницу.</li>\n"
+"                    </ol>\n"
+"                    Если вы создали хотя бы один столбец для большого экрана, в которм есть хотя бы один элемент, и ваша таблица сохранена, это предупреждение будет удалено, и ваша таблица будет отображаться во фронтэнде. Пожалуйста, посетите <a href=\"https://wcproducttable.com/tutorials\" target=\"_blank\">документацию плагина</a>, чтобы получить чёткие руководства по использованию данного плагина, которые позволят извлечь из него максимальную пользу."
+
+#: editor/partials/query.php:83
+msgid "Menu order"
+msgstr "Порядок меню"
+
+#. Author URI of the plugin
+#: main.php
+msgid "https://profiles.wordpress.org/wcproducttable/"
+msgstr "https://profiles.wordpress.org/wcproducttable/"
+
+#. Plugin URI of the plugin
+#: main.php
+msgid "https://wcproducttable.com/"
+msgstr "https://wcproducttable.com/"
+
+#. Plugin Name of the plugin
+#: main.php
+msgid "WooCommerce Product Table Lite"
+msgstr "WooCommerce Product Table Lite"
+
+#: templates/sort_by.php:135 templates/sort_by.php:177
+#: templates/sort_by.php:216
+msgid "Sort by "
+msgstr "Сортировать по"
+
+#: templates/result_count.php:25
+msgid "No results found"
+msgstr "Ничего не найдено."
+
+#: templates/result_count.php:21
+msgid "Showing the single result"
+msgstr "Отображение единственного результата"
+
+#: templates/result_count.php:17
+msgid "Showing all [displayed_results] results"
+msgstr "Отображение всех результатов [displayed_results]"
+
+#: templates/result_count.php:13
+msgid "Showing [first_result] - [last_result] of [total_results] results"
+msgstr "Показаны [first_result] - [last_result] из [total_results]"
+
+#: templates/quantity.php:134
+msgctxt "Product quantity input tooltip"
+msgid "Quantity"
+msgstr "Количество"
+
+#: templates/price_filter.php:47
+msgid "Price range"
+msgstr "Диапазон цен"
+
+#: templates/category_filter.php:26 templates/category_filter.php:487
+#: templates/category_filter.php:492 templates/category_filter.php:496
+msgid "Category"
+msgstr "Категория"
+
+#: main.php:2511
+msgid "No product table settings were found for this id. Please try clicking the \"Save settings\" button at the bottom of the table editor page to save your table settings. If you have already done this and the issue still persists, the cause may be incompatibility with another script on your site. In that case you should contact the plugin developer <a href=\"https://wcproducttable.com/support/\">here</a> for prompt support."
+msgstr "Для этого ID не найдено настроек таблицы товаров. Попробуйте нажать кнопку сохранения настроек в нижней части страницы редактора таблиц, чтобы сохранить изменения. Если вы уже сделали это, но проблема не исчезла, причиной может быть несовместимость с другим плагинами на вашем сайте. В этом случае вам следует связаться с разработчиком плагина <a href=\"https://wcproducttable.com/support/\">здесь</a> для получения оперативной поддержки."
+
+#: main.php:946
+msgid "Sorry, this product is unavailable. Please choose a different combination."
+msgstr "Данный товар недоступен. Пожалуйста, подберите альтернативу."
+
+#: main.php:945 main.php:2079 main.php:2100
+msgid "Please select some product options before adding this product to your cart."
+msgstr "Выберите вариацию товара, прежде чем положить его в корзину."
+
+#: main.php:944
+msgid "Sorry, no products matched your selection. Please choose a different combination."
+msgstr "По вашему запросу не найдено ни единого товара. Используйте другой поисковый запрос."
+
+#: main.php:587
+msgid "Install now?"
+msgstr "Установить сейчас"
+
+#: main.php:584
+msgid "WooCommerce Product Table needs the WooCommerce plugin to be installed and activated on your site!"
+msgstr "WooCommerce Product Table требует, чтобы WooCommerce был установлен и активирован на вашем сайте!"
+
+#: main.php:214
+msgid "Easily display your WooCommerce products in responsive tables."
+msgstr "Легко отображайте свои товары WooCommerce в адаптивных таблицах."
+
+#: main.php:212
+msgid "Add New Product Table"
+msgstr "Создать новую таблицу товаров"
+
+#: main.php:210
+msgid "Product Table"
+msgstr "Таблица товаров"
+
+#: main.php:209 main.php:211
+msgid "Product Tables"
+msgstr "Таблицы товаров"
+
+#: editor/settings.php:9
+msgid "WCPT Global Settings"
+msgstr "Глобальные настройки WCPT"
+
+#: editor/partials/style.php:90
+msgid "Enter custom CSS here..."
+msgstr "Вставляйте собственный код CSS сюда..."
+
+#: editor/partials/query.php:356
+msgid "Additional query args"
+msgstr "Доп. аргументы запроса"
+
+#: templates/search.php:78 templates/search.php:88
+msgid "Search"
+msgstr "Поиск"
+
+#: editor/partials/query.php:348
+msgid "Enter comma separated product SKUs"
+msgstr "Вводите артикулы товаров через запятую"
+
+#: editor/partials/query.php:344
+msgid "Select products by SKU"
+msgstr "Выбор товаров по артикулу"
+
+#: editor/partials/query.php:336
+msgid "Enter comma separated product IDs"
+msgstr "Вводите ID товаров через запятую"
+
+#: editor/partials/query.php:332
+msgid "Select products by ID"
+msgstr "Выбор товаров по ID"
+
+#: editor/partials/query.php:309
+msgid "Hide out of stock items"
+msgstr "Скрывать товары, которых нет в наличии"
+
+#: editor/partials/query.php:292
+msgid "Descending"
+msgstr "По убыванию"
+
+#: editor/partials/query.php:291
+msgid "Ascending"
+msgstr "По возрастанию"
+
+#: editor/partials/query.php:285
+msgid "Initial order"
+msgstr "Исходный порядок"
+
+#: editor/partials/query.php:115
+msgid "Custom field to orderby"
+msgstr "Сортировка по произвольному полю"
+
+#: editor/partials/query.php:87
+msgid "Popularity (sales)"
+msgstr "Популярность (продажи)"
+
+#: editor/partials/query.php:86
+msgid "Price: high to low"
+msgstr "Цена: от высокой"
+
+#: editor/partials/query.php:85
+msgid "Price: low to high "
+msgstr "Цена: от низкой"
+
+#: editor/partials/query.php:84
+msgid "Average rating"
+msgstr "Средний рейтинг"
+
+#: editor/partials/query.php:81
+msgid "Title"
+msgstr "Заголовок"
+
+#: editor/partials/query.php:75
+msgid "Initial orderby"
+msgstr "Исходная сортировка"
+
+#: editor/partials/query.php:62
+msgid "Pagination"
+msgstr "Постраничная навигация"
+
+#: editor/partials/query.php:52
+msgid "Max products per page"
+msgstr "Максимальное количество товаров на странице"
+
+#: editor/partials/query.php:3
+msgid "Select products by category"
+msgstr "Выбор товаров по категории"
+
+#: editor/editor.php:1174 editor/settings.php:43
+msgid "Save settings"
+msgstr "Сохранить настройки"
+
+#: editor/editor.php:1172
+msgid "Untitled table"
+msgstr "Безымянная таблица"
+
+#: editor/editor.php:1025
+msgid "Style"
+msgstr "Стиль"
+
+#: editor/editor.php:1019
+msgid "Navigation"
+msgstr "Навигация"
+
+#: editor/editor.php:1013
+msgid "Columns"
+msgstr "Столбцы"
+
+#: editor/editor.php:1007
+msgid "Query"
+msgstr "Запрос"
+
+#: editor/editor.php:42 main.php:4993
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: editor/editor.php:35
+msgid "Table name"
+msgstr "Название таблицы"
+
+#: editor/editor.php:10
+msgid "WooCommerce Product Table"
+msgstr "Таблица товаров WooCommerce"
