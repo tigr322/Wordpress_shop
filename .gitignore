@@ -1,0 +1,24 @@
+# Системные файлы
+.DS_Store
+
+# PHPStorm / VSCode
+.idea/
+.vscode/
+
+# Docker
+wp/wp-config.php
+wp/wp-content/uploads/
+wp/wp-content/cache/
+wp/wp-content/upgrade/
+wp/wp-content/backups/
+*.log
+
+# ОС
+*.swp
+*.swo
+
+# Бэкапы
+*.sql
+*.tar
+*.tar.gz
+*.zip
