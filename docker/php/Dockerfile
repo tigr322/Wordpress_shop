@@ -21,6 +21,9 @@ RUN curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli
 # Скачивание WordPress
 RUN mkdir -p /var/www
 WORKDIR /var/www
+RUN echo "upload_max_filesize=64M" > /usr/local/etc/php/conf.d/uploads.ini \
+ && echo "post_max_size=64M" >> /usr/local/etc/php/conf.d/uploads.ini
+
 RUN curl -O https://wordpress.org/latest.tar.gz && \
     tar -xzf latest.tar.gz && \
     mv wordpress/* ./ && \
