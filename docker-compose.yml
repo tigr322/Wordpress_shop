@@ -40,4 +40,4 @@ services:
 networks:
   default:
     external:
-      name: goldtrade_default
+      name: wordpress_default

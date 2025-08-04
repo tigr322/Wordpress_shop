@@ -25,8 +25,9 @@ RUN curl -O https://wordpress.org/latest.tar.gz && \
     tar -xzf latest.tar.gz && \
     mv wordpress/* ./ && \
     rm -rf wordpress latest.tar.gz
-
+SHELL ["/bin/bash", "-c"]
 COPY ./docker/php/entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
+RUN chmod +x /entrypoint.sh && ls -la /entrypoint.sh && head -n 3 /entrypoint.sh && file /entrypoint.sh
+    
 ENTRYPOINT ["/entrypoint.sh"]
 CMD ["php-fpm"]

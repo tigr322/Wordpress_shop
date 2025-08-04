@@ -7,7 +7,7 @@
 
 
 .env
-
+docker-compose.yml
 
 # WordPress временные и генерируемые файлы
 wp/wp-config.php
