@@ -5,10 +5,9 @@
 .idea/
 .vscode/
 
-# Docker
-docker-compose.yml
+
 .env
-docker/
+
 
 # WordPress временные и генерируемые файлы
 wp/wp-config.php
